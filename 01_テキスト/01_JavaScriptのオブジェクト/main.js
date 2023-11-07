@@ -15,6 +15,18 @@ const hikakin = {
 // TRY: 練習問題１
 // hikakin オブジェクト を真似して自分のプロフィールをオブジェクトで作ってください。
 // オブジェクトにはたくさんのプロパティを追加してください。
+const horitomoka = {
+  name: "ほりともか",
+  age: 20,
+  hobbies: ["映画鑑賞", "プロレス", "散歩"],
+  isHappy: true,
+  address: {
+    country: "日本",
+    city: "東京",
+  },
+}
+
+console.log(horitomoka)
 
 // const me = { name: 'あなたのなまえ' }
 
@@ -24,3 +36,7 @@ const hikakin = {
 
 // TRY: 練習問題２
 // hikakin オブジェクトに入っている sayHello メソッドを実行してください。
+hikakin.sayHello()
+
+console.dir(document)
+console.dir(window)

@@ -11,3 +11,4 @@
 .transition {
   transition: all 1s;
 }
+変化するすべてのプロパティ（all）を、1 秒（1s）かけて変化させる、という意味になります。
